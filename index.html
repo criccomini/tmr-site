@@ -6,9 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 html { height: 100%; }
-body { padding: 0px; margin: 0px; height: 100%;}
-h2 { margin-top: 0em; text-align: center;}
+body { padding: 0px; margin: 0px; height: 100%; }
 hr { border-top: 1px dotted grey; width: 5em; margin: 3em auto; }
+h2 { margin: 1em 0em;}
+blockquote { color: rgba(255, 255, 255, 1); font-family: Tahoma, sans-serif; font-size: 40px; margin: 0 auto; }
+blockquote p { font-style: italic; font-weight: bold; margin-bottom: 1rem; }
+blockquote p::before, blockquote p::after { content: "“"; font-family: Georgia; font-size: 8rem; margin: -2rem 0 0 -5rem; position: absolute; opacity: 0.3; }
+blockquote p::after { content: "”"; margin: -.5rem -4rem 0 0; }
+blockquote cite { font-style: normal; font-size: 1rem; }
 </style>
 </head>
 <body>
@@ -27,7 +32,7 @@ hr { border-top: 1px dotted grey; width: 5em; margin: 3em auto; }
 </div>
 
 <div style="font: 1.25em 'Open Sans', sans-serif; line-height: 165%;">
-<b>The Missing README</b> contains the skills you'll need to be a successful engineer, the skills your manager wants you to know, the skills you weren't taught in school. You'll learn to:
+<b>The Missing README</b> contains the skills you'll need to be a successful software engineer, the skills your manager wants you to know, the skills you weren't taught in school. You'll learn to:
 <ul>
 <li>Work with <b>existing code</b></li>
 <li>Write <b>maintainable and operable</b> code</li>
@@ -43,28 +48,31 @@ hr { border-top: 1px dotted grey; width: 5em; margin: 3em auto; }
 </div>
 </div>
 
-<div style="padding: 3em 25%; font: 1.25em 'Open Sans', sans-serif; line-height: 165%;  background-color: #04A4DC;">
-
-<div>
-<h2>Testimonials</h2>
-Alejandro Crosa, CTO at Silverback Ventures, former Staff Engineer at Slack
+<div style="padding: 1rem 25% 4rem 25%; background-color: #04A4DC;">
 <blockquote>
-I won’t get tired of recommending this book.
+<p>I won’t get tired of recommending this book.</p>
+<cite>&mdash;Alejandro Crosa<br><em style="margin-left: .85em; font-size: 1em;">Co-founder/CTO at Silverback Ventures, former Staff Engineer at Slack</em></cite>
 </blockquote>
 </div>
 
-<hr/>
+<div style="padding: 1rem 25% 2rem 25%; font: 1.25rem 'Open Sans', sans-serif; line-height: 165%;">
 
+<h2>Authors</h2>
 <div>
-<h2>About the Authors</h2>
+    <img src="img/chris.jpg" style="width: 8rem; float: left; border-radius: 50%; position: absolute; margin-left: -10rem;">
+    <p><b>Chris Riccomini</b> is a software engineer with more than a decade of experience at Silicon Valley tech companies including PayPal, LinkedIn, and WePay, a JP Morgan Chase Company. Over his career, Chris has held titles as data scientist, staff software engineer, and distinguished software engineer. He has managed engineering teams in the distributed systems and payments space.</p>
+</div>
+<div>
+    <img src="img/dmitriy.jpg" style="width: 8rem; float: left; border-radius: 50%; position: absolute; margin-left: -10rem;">
+    <p><b>Dmitriy Ryaboy</b> has been a software engineer and manager since the turn of the century. He holds an EECS degree from UC Berkeley and a Masters in "Very Large Information Systems", which is what they called “Big Data” back in the day, from CMU. He’s worked at places ranging from large government institutions (Lawrence Berkeley National Laboratory), to tiny startups (Cloudera, when it was 12 people), to small but rapidly growing and maturing internet startups (Twitter). He is currently the Vice President of software engineering at Zymergen, a company that combines machine learning, robotics, and cutting edge bioengineering to create new materials for the 21st century.</p>
 </div>
 
-<hr/>
-
-<div>
-<h2>Stay in Touch</h2>
 </div>
 
+
+
+<div style="background-color: black; color: white; padding: 2.5em 25%; font-family: 'Open Sans', sans-serif;">
+    footer
 </div>
 
 </body>
