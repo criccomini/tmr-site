@@ -459,17 +459,18 @@
                 <div class="cta-content">
                     <span class="subheading2">Subscribe now</span>
                     <h2 class="heading-title">Get updates about the book</h2>
-                    <form action="#" class="subsribe">
+                    <form action="https://tinyletter.com/missingreadme" class="subscribe" id="newsletter-form" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/missingreadme', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                        <input type="hidden" value="1" name="embed"/>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Email Address">
+                            <input type="text" class="form-control" name="email" id="tlemail" placeholder="Email Address">
                         </div>
-                        <a href="#" class="btn btn-main w-100">Subscribe<i class="fa fa-angle-right ml-2"></i></a>  
+                        <a href="#" class="btn btn-main w-100" onclick="document.getElementById('newsletter-form').submit();">Subscribe<i class="fa fa-angle-right ml-2"></i></a>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</section> 
+</section>
 <!-- Newsletter End -->
 
 <!-- Footer start -->
